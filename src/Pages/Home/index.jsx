@@ -19,7 +19,7 @@ function Home() {
         async function getUser() {
             try {
                 const response = await axios.get(
-                    'https://api-testnet.bscscan.com/api?module=account&action=balance&address={ Address }&apikey={API KEY}'
+                    'api?module=account&action=balance&address=0xddbd2b932c763ba5b1b7ae3b362eac3e8d40121a&tag=latest&apikey=YourApiKeyToken{ Address }&apikey={API KEY}'
                 );
                 setBalance(response.data.result)
             } catch (error) {
