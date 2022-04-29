@@ -37,7 +37,7 @@ function Home() {
     return (
         <div id='home'>
             <Helmet>
-                <title>Welcome to Backed Beans</title>
+                <title>Welcome to Psalms of David</title>
                 <meta
                     name="description"
                     content=""
