@@ -13,8 +13,8 @@ function Home() {
 
     const [bnbInput, setBnbInput] = useState('')
 
-    const [balance, setBalance] = useState()
-
+    const [balance, setBalance] = useState('')
+                                          
     useEffect(() => {
         async function getUser() {
             try {
