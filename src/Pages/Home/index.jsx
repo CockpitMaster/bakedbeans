@@ -13,7 +13,7 @@ function Home() {
 
     const [bnbInput, setBnbInput] = useState('')
 
-    const [balance, setBalance] = useState('')
+    const [balance, setBalance] = useState()
                                           
     useEffect(() => {
         async function getUser() {
@@ -64,8 +64,8 @@ function Home() {
                             <div className='beans-amount'>0 BNB</div>
                         </div>
                         <div className='beans-amount-container'>
-                            <div className='beans-amount-label'>Beans</div>
-                            <div className='beans-amount'>{balance} BEANS</div>
+                            <div className='beans-amount-label'>Psalms Tree</div>
+                            <div className='beans-amount'>{balance} Tree</div>
                         </div>
                     </div>
 
@@ -80,27 +80,27 @@ function Home() {
                     </div>
 
                     <button className='bake-beans-btn'>
-                        Buy Gold
+                        Plant Tree
                     </button>
                     <div className='bake-rebake-btns'>
                         <button className='bake-beans-btn'>
-                            Bury Gold
+                            RePlant Tree
                         </button>
                         <button className='bake-beans-btn'>
-                            Sell Gold
+                            Cut Tree
                         </button>
                     </div>
                 </section>
 
                 <section id='nutrition-facts'>
-                    <div className='nutrition-facts-title'>Nutrition Facts</div>
+                    <div className='nutrition-facts-title'>Psalms of David</div>
                     <div className='nutrition-facts-element-container'>
                         <div className='nutrition-facts-element'>Daily Return</div>
-                        <div className='nutrition-facts-element'>8%</div>
+                        <div className='nutrition-facts-element'>0.5%</div>
                     </div>
                     <div className='nutrition-facts-element-container'>
                         <div className='nutrition-facts-element'>APR</div>
-                        <div className='nutrition-facts-element'>2,920%</div>
+                        <div className='nutrition-facts-element'>360%</div>
                     </div>
                     <div className='nutrition-facts-element-container'>
                         <div className='nutrition-facts-element'>Dev Fee</div>
@@ -117,8 +117,8 @@ function Home() {
                             className='referral-link-input'
                             disabled={true} />
                         <div className='referral-link-text'>
-                            Earn 12% of the BNB used to bake
-                            beans from anyone who uses your referral link.
+                            Earn 5% of the BNB used to Plant
+                        from anyone who uses your referral link.
                         </div>
                     </div>
                 </section>
