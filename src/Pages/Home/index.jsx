@@ -96,11 +96,11 @@ function Home() {
                     <div className='nutrition-facts-title'>Psalms of David</div>
                     <div className='nutrition-facts-element-container'>
                         <div className='nutrition-facts-element'>Daily Return</div>
-                        <div className='nutrition-facts-element'>0.5%</div>
+                        <div className='nutrition-facts-element'>1%</div>
                     </div>
                     <div className='nutrition-facts-element-container'>
                         <div className='nutrition-facts-element'>APR</div>
-                        <div className='nutrition-facts-element'>360%</div>
+                        <div className='nutrition-facts-element'>365%</div>
                     </div>
                     <div className='nutrition-facts-element-container'>
                         <div className='nutrition-facts-element'>Dev Fee</div>
